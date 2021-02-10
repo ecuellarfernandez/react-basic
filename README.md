@@ -17,20 +17,20 @@ Sprint 6. React I
 * Copiar el siguiente código y completar para que retorne "Viatge a la lluna"
 ```
 export default () => {
-
     ????
-
 }
 ```
 * Uso de componente Book en App.js completar el componente App.js
 ```
 import Book from './book'; 
+
 export default () => { 
     return ( 
         <div> 
-            ????
+            ????                       
         </div> 
-      );
+        
+      ); 
 };
 ```
 
@@ -48,6 +48,7 @@ export default () => {
          "title": "Viatge a la lluna", 
           "author": "Julio Verne" 
      }, 
+     
      { 
          "title": "El metge", 
          "author": "Noah Gordon" 
