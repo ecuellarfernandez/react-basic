@@ -15,15 +15,15 @@ Sprint 6. React I
 * Crear componente y importarlo desde componente principal App
 * Crear archivo Book.js
 * Copiar el siguiente código y completar para que retorne "Viatge a la lluna"
-``
+```
 export default () => {
 
     ????
 
 }
-``
+```
 * Uso de componente Book en App.js completar el componente App.js
-``
+```
 import Book from './book'; 
 export default () => { 
     return ( 
@@ -32,7 +32,7 @@ export default () => {
         </div> 
       );
 };
-``
+```
 
 ## Nivel 2 ⭐⭐
 ### Ejercicio 3 
@@ -42,7 +42,7 @@ export default () => {
 ### Ejercicio 4
 * Importar archivo JSON y leerlo desde nuestra App, con una estructura .map
 * JSON:
-``
+```
 [
     { 
          "title": "Viatge a la lluna", 
@@ -53,4 +53,4 @@ export default () => {
          "author": "Noah Gordon" 
      }
 ]
-``
+```
